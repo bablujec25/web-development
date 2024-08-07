@@ -1,4 +1,12 @@
+:root{
+    --main-blue:#4980ff;
+    --main-dark: #28293e;
+    --grey-color:#efefef;
+    --grey:#28293e
 
+
+
+}
 header{
     background-color:#28293e;
     text-align: center;
@@ -12,12 +20,14 @@ header{
 body{
     margin: 0px;
     padding: 0px;
+    text-align: center;
+    font-family: "Lato", sans-serif;
 
 span{
     background-color:  blue;
 }
 div{
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 header  a{
     color: #fff;
@@ -25,13 +35,141 @@ header  a{
     margin-left: 22px;
     margin-right: 22px;
 }
-header ul{
+ul{
     list-style-type: none;
 }
 header li{
     display: inline;
 }
-section #profile{
+section img#profile{
     border-radius: 270px;
     width: 263px;
+    
+}
+section#hero{
+    padding-top: 68px;
+    padding-bottom: 58px;
+
+}
+section#hero h1{
+    font-size: 72px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    letter-spacing: -2px;
+}
+.button{
+    background-color: var(--main-blue);
+    padding: 12px 4px;
+    border-radius: 6px;
+}
+
+section#hero h2{
+    font-size: 20px;
+    font-weight: normal;
+    color: #2980ff;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    letter-spacing: 3px ;
+}
+section p{
+    font-size: 20px;
+    line-height: 32px;
+    color: var(--grey)
+}
+section{
+
+    padding: 40px 0px;
+}
+hr{
+    width: 70px;
+    height: 8px;
+    background-color: #4980ff;
+    margin: 16px auto 32px auto;
+
+}
+
+section#hero p{
+    
+    margin-bottom: 20px;
+    max-width: 465px;
+   
+    margin: auto;
+    color: white;
+}
+section#hero li{
+    display: inline;
+    margin: 0 6px;
+}
+section#hero li img{
+    width: 37px;
+}
+.container{
+    border: 2px solid yellow;
+    max-width: 940px;
+    margin: auto;
+    
+    
+}
+section .section-title{
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    margin-bottom: 18px;
+    margin-top: 0px;
+
+}
+section#skillset .skills{
+    /* background-color: yellow; */
+    max-width: 500px;
+    margin: auto;
+
+}
+section#skillset span{
+    display: inline-block;
+    background-color: var(--grey-color);
+    width: 146px;
+    line-height: 40px;
+    height: 40px;
+    border-radius: 72px;
+    margin: 8px;
+    font-size: 16px;
+    letter-spacing: -1px;
+
+}
+section#experience article h3{
+    color: var(--grey);
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+section#experience article p{
+    margin: 0px;
+}
+section#experience article {
+    border-bottom: 1px solid #D9D9D9;
+    padding: 30px 0px;
+}
+section#experience article:first-of-type{
+    padding-top: 0px;
+}
+section#experience article:last-of-type{
+    border-bottom: none;
+}
+iframe{
+    max-width: 100%;
+}
+section#contact{
+    background-color: var(--grey-color);
+}
+
+section#contact a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+section#contact a img{
+    vertical-align:middle;
+    margin-right: 12px;
 }
